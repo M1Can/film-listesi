@@ -1,0 +1,108 @@
+.başlık {
+  display: flex !important;
+  flex-wrap: wrap;
+  height: 45px !important;
+}
+
+.başlık p {
+  min-width: 30px;
+  height: 20px;
+  font-size: 13px;
+  margin-top: 12.5px;
+  margin-left: 10px;
+  text-align: center;
+  padding-top: 1px;
+  color: black;
+  font-weight: 900;
+}
+
+.ap_kırmızı {
+  background-color: red !important;
+}
+
+.ap_turuncu {
+  background-color: rgb(221, 147, 9) !important;
+}
+
+.ap_altın {
+  background-color: gold !important;
+}
+
+.başlık h5 {
+  min-width: 115px;
+  max-width: 115px;
+  margin-left: 5px;
+  font-size: 13px;
+  padding-top: 11px;
+}
+
+.light-mode {
+  background-color: white !important;
+}
+
+#menü-btn {
+  background-color: #343a40;
+  color: white;
+  transition: background-color 2s linear;
+}
+
+footer {
+  display: block;
+  font-family: sans-serif;
+  font-size: 9px !important;
+  color: black;
+  text-align: center;
+  height: 57px;
+  font-weight: 500;
+}
+
+footer:hover {
+  font-weight: 900;
+}
+
+footer > strong {
+  color: navy;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer > strong:hover {
+  color: firebrick;
+  text-decoration: underline;
+  text-decoration-color: mediumturquoise;
+}
+
+/*FLEXİBLE*/
+
+.D-flex-wrap-center {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+}
+
+.oflowX-oto {
+  overflow-x: auto;
+}
+
+.Mt-15 {
+  margin-top: 15px !important;
+}
+
+.Mt-25 {
+  margin-top: 25px !important;
+}
+
+.Mt-35 {
+  margin-top: 35px !important;
+}
+
+.Mt-45 {
+  margin-top: 45px !important;
+}
+
+.Mt-55 {
+  margin-top: 55px !important;
+}
+
+.Mt-65 {
+  margin-top: 65px !important;
+}
